@@ -1,5 +1,19 @@
-body{
-    background-color: rgb(7, 2, 75);
+div#area {
+    font: normal 25pt Arial;
+    background: rgb(1, 245, 22);
     color: white;
-    font: normal 18pt Arial;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+body{
+    font: normal 10pt Arial;
+}
+input {
+    font: normal 10pt Arial;
+}
+#resultado {
+    margin-top: 20px;
+    font: normal 10pt Arial;
 }
