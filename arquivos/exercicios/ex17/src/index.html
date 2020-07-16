@@ -3,18 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="../../ex15/style.css">
 </head>
 <body>
+    <header>
+        <h1>
+            Tabuada
+        </h1>
+    </header>
     <section>
         <div id="content">
             <p>
                 Número <input type="number" name="valorNum" id="valorNum">
-                <input type="button" value="Gerar Tabuada" onclick="gerarTabuada">
+                <input type="button" value="Gerar Tabuada" onclick="gerarTabuada()">
             </p>
             
         </div>
+
+        <div id="operation">
+            <select name="tabuada" id="selSoma" size="11">
+                <option ></option>
+            </select>
+
+            <select name="tabuada" id="selSub" size="11">
+                <option ></option>
+            </select>
+
+            <select name="tabuada" id="selMult" size="11">
+                <option ></option>
+            </select>
+        
+            <select name="tabuada" id="selDiv" size="11">
+                <option ></option>
+            </select>
+        
+        
+        
+        </div>
+        
+
     </section>
 
     <footer>
