@@ -19,6 +19,8 @@ function adicionar(){
     }else{
         return msgErro()
     }
+    valorDig.value = ``
+    valorDig.focus()
 }
 
 function verificar(){
