@@ -4,6 +4,7 @@ var escreve = document.querySelector('div#result')
 var guardaValores = []
 
 function adicionar(){
+    escreve.innerHTML = ` `
     let numero = Number(valorDig.value)
     if(valorDig.value == 0 || valorDig.value > 100){
         return msgErro()
